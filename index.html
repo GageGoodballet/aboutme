@@ -1,20 +1,216 @@
-<!DOCTYPE html <!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang="en">
   <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title></title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <main>
-      <header>
-        <h1>Gage Goodballet</h1>
-      </header>
+    <nav class="navbar navbar-expand-lg. bg-body-tertiary fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">About Me!</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#bio">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="bg-black text-light py-5 mt-5">
+      <h1 class="text-center">Gage Goodballet</h1>
+    </header>
+    <main class="container">
+      <article id="bio" class="card bg-black p-5 my-5">
+        <header class="mb-4">
+          <h2 class="text-center">My Bio</h2>
+        </header>
+        <div class="row align-items-center">
+          <figure class="col-md-6 col-sm-12 px-5">
+            <img
+              src="IMG_0561.jpg"
+              alt="my-image"
+              class="img-fluid rounded-circle"
+            >
+          </figure>
+          <section class="col-md-6 col-sm-12">
+            <ul class="list-unstyled my-list p-4">
+              <li class="mb-2">My name is Gage!</li>
+              <li class="mb-2"> I was born and raised in San Francisco, California.</li>
+              <li class="mb-2">
+              I've loved playing video games my whole life, enjoy stand up comedy, and LOVE cats. I have also been to tons of concerts throughout my life, such as Paul McCartney, Kiss, Metallica, Whitesnake, and more.
+              </li>
+              <li class="mb-2">
+                Some of my favorite movies are Spaceballs, the Scary Movie Franchise, the godfather, the usual suspects, and many, many more.
+              </li>
+              <li class="mb-2">
+                In high school, I was in a film class and learned about the history of film, as well as how to produce and critique movies, as well as cinemtic tropes and cliches.
+              </li>
+              <li class="mb-2">
+                My favorite activities are playing video
+                games, camping, bowling, cooking, and watching movies and TV.
+              </li>
+            </ul>
+          </section>
+        </div>
+      </article>
+      <article id="education" class="card bg-black p-5 pb-0 mb-5">
+        <header>
+          <h2 class="text-center">Education</h2>
+        </header>
+        <div class="row">
+          <figure class="col-md-6 col-sm-12">
+            <img
+              src="https://assets.scorebooklive.com/uploads/production/team/160431-v3/image/SRlogo3.png"
+              alt="High school"
+              class="image-cover"
+              width="70%" 
+              height="auto"
+            >
+          </figure>
+          <section
+            class="col-md-6 col-sm-12 d-flex flex-column justify-content-center"
+          >
+            <ul class="list-unstyled my-list p-4">
+              <li>
+                I went to grade school in San Francisco, California, and high
+                school in Santa Rosa.
+              </li>
+              <li>
+               When in High School, I spent 3 years in an art program studying film development, analisys, and review.
+              </li>
+              <li>
+               After High School, I studied to get my Cerified Nurses's Assistant lisence so I could have some experience in healthcare, and got a lot of valuable experience working in memory care with people struggling with dementia and alzhiemers.
+              </li>
+              
+              <li>
+                I also took a unarmed security class, as I want to have a broad set of skills.
+              </li>
+            </ul>
+          </section>
+        </div>
+      </article>
+      <article id="experience" class="card bg-black p-5 pb-0 mb-5">
+        <header class="mb-4">
+          <h2 class="text-center">Work Experience</h2>
+        </header>
+        <section class="row gx-5">
+          <div class="col-md-6">
+            <h3 class="border-bottom border-2 border-secondary mb-3">
+              High School
+            </h3>
+            <ul class="list-unstyled my-list">
+              <li>
+                <h4>Phone Operator - Haystack Pizza (2020, 2021)</h4>
+                <p>
+                  Took orders, managed tips, and dealt with high volumes of customers
+                </p>
+              </li>
+              <li>
+                <h4>Lifeguard - La Petite Baleen (2016-2018)</h4>
+                <p>
+                  Ensured pool safety and responded to emergencies. Maintained
+                  pool area cleanliness and organization. Developed strong
+                  communication and teamwork skills.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h3 class="border-bottom border-2 border-secondary mb-3">
+              College
+            </h3>
+            <ul class="list-unstyled my-list">
+              <li>
+                <h4>C.N.A. - Clipboard Health Agency (2022-2025)</h4>
+                <p>
+                  Experience in patient care, quality of life care, and memory care with both combatitive and non-combatitive patients. Provide essential support to patients and nurses by assisting with basic daily living activities, monitoring vital signs, and maintaining a clean and safe environment. 
+                </p>
+              </li>
+              <li>
+                <h4>Experience Guide - Sandbox VR (2025- Present)</h4>
+                <p>
+                  Working to provide guests a pleasant experience, providing tech support for any issues that arise wth the computers, VR headsets, and trackers that may arise during the session, as well as upselling products to customers.
+                </p>
+              </li>
+              <li>
+                <h4>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </article>
+      <article id="contact" class="card bg-black p-5 pb-0 mb-5">
+        <header class="mb-4">
+          <h2 class="text-center">Contact</h2>
+        </header>
+        <div class="row">
+          <div class="col-md-0">
+            
+          </div>
+          <div class="col-md-4">
+            <h3>Email</h3>
+            <p><a href="mailto:gagegoodballet@gmail.com">gagegoodballet@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <h3>LinkedIn</h3>
+            <p>
+              <a
+                href="https://www.linkedin.com//"
+                target="_blank"
+                >linkedin.com//</a
+              >
+            </p>
+          </div>
+        </div>
+      </article>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <footer class="bg-black text-goldenrod py-3">
+      <p class="text-center">&copy; 2025 Gage Goodballet. All rights reserved.</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

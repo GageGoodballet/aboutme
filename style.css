@@ -1,6 +1,36 @@
 body {
-  background-color: gold;
+  background-color: goldenrod;
+  color: goldenrod;
 }
 h1 {
-    color: black;
+
+
+  color: goldenrod;
+  font-weight: bolder;
+}
+h2{
+  background-color: black;
+  color: goldenrod;
+  border-color: black;
+}
+container{color: black; }
+header {
+  background-color: black;
+}
+h3{
+  color: goldenrod;
+}
+.my-list{
+  color: goldenrod;
+}
+.container-fluid{
+  background-color: goldenrod;
+  color: goldenrod;
+
+}
+.bg-body-tertiary{
+  background-color: goldenrod !important;
+}
+.high-school {
+  size-adjust: small;
 }
